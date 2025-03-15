@@ -1,0 +1,70 @@
+.navbar-div{
+    background-color: #edeaea;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #C14600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 5px;
+  }
+  
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 900px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #777;
+  }
+  
+  .search-bar {
+    background-color: #edeaea;
+    width: 100%;
+    padding: 10px 15px 10px 40px; /* Tambah padding kiri agar tidak menutupi ikon */
+    border-radius: 10px;
+    height: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(199, 196, 196);
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar::placeholder {
+    color: #999;
+  }
+  
+  .category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .category-nav-element {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    padding: 15px 5px;
+  }
+  
+  .category-nav-element:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 12px;
+  }
