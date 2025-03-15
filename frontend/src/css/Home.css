@@ -2,3 +2,67 @@
     margin: 10px 120px 0px 120px;
 }
 
+.brand-div{
+    margin-top: 30px;
+}
+
+.brand-div p{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.brand-list{
+    height: 400px;
+}
+
+.brand-list .brand-item{
+    border: 1px solid #C14600;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    width: 410px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.brand-list .first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.brand-list .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-list .second-row .brand-item{
+    width: 625px;
+}
+
+.brand-list .the-executive-logo{
+    width: 350px;
+}
+
+.brand-list .thanksinsomnia-logo{
+    width: 300px;
+}
+
+.brand-list .kanky-logo{
+    width: 250px;
+}
+
+.brand-list .erigo-logo{
+    width: 300px;
+}
+
+.brand-list .compass-logo{
+    width: 250px;
+}
+
